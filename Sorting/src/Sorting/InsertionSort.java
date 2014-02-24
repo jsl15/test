@@ -10,6 +10,7 @@ public class InsertionSort {
 	public static int[] insertionSort(int[] unsortedArray) {
 		//TODO: S2 implements insertion sort
 		
+		// WHOOOOOOO INSERTION
 		return null;
 	}
 }

@@ -24,6 +24,7 @@ public class Main {
 		//TODO: sort the array and print out its contents
 		//BubbleSort!!
 		
+		System.out.println("WHOOO INSERTION");
 		
 	}
 
