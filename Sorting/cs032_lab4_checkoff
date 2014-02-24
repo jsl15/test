@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "Deleting all your code..."
+CURR_DIR=`pwd`
+if [ ! $CURR_DIR -eq "/home/`whoami`/course/cs032/lab4/Sorting/" ]
+then
+  echo "Please cd into ~/course/cs032/lab4/Sorting/ and try running again!"
+else
+  rm -f src/Sorting/Main.java src/Sorting/BubbleSort.java src/Sorting/InsertionSort.java
+fi
+echo "Read the lab4 handout to see how to get this back with git reset!"
